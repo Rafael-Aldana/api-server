@@ -1,5 +1,5 @@
 
-# LAB - Class 03
+# LAB - Class 04
 
 ## Project: api-server
 
@@ -19,9 +19,9 @@ delete()
 
 ### Links and Resources
 
-- [GitHub Actions ci/cd](https://github.com/Rafael-Aldana/basic-api-server/actions/new)
-- [back-end server dev url](https://github.com/Rafael-Aldana/basic-api-server/tree/dev)
-- [back-end server prod url](https://github.com/Rafael-Aldana/basic-api-server/tree/main)
+- [GitHub Actions ci/cd](https://github.com/Rafael-Aldana/api-server/actions)
+- [back-end server dev url](https://github.com/Rafael-Aldana/api-server/pulls?q=is%3Apr+is%3Aclosed)
+- [back-end server prod url](https://github.com/Rafael-Aldana/api-server/tree/main)
 
 ### Setup
 
