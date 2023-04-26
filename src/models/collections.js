@@ -18,7 +18,7 @@ class Collection {
   async read(id = null) {
     try {
       if (!id) {
-        const records = await this.customerModel.findAll();
+        const records = await this.model.findAll();
         return records;
       } else {
         const record = await this.model.findByPk(id);
@@ -26,7 +26,7 @@ class Collection {
       }
     } catch (error) {
       console.log('Error reading the collection');
-      return console.error();;
+      return console.error();
     }
   }
 
@@ -41,9 +41,9 @@ class Collection {
 
   async delete(id) {
     try {
-     await this.model.destroy({ where: { id } });
+      await this.model.destroy({ where: { id } });
     } catch (error) {
-      console.log('Error deleting in collection')
+      console.log('Error deleting in collection');
     }
   }
 }

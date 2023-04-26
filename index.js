@@ -3,9 +3,9 @@
 require('dotenv').config();
 
 const { startServer } = require('./src/server');
-const { sequelizeDatabase } = require('./src/models');
+const { sequelize } = require('./src/models');
 
-sequelizeDatabase.sync().then(() => {
+sequelize.sync().then(() => {
   console.log('Successful Connection');
   startServer ();
 }).catch(error => console.error(error));
